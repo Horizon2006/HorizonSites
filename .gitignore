@@ -1,0 +1,6 @@
+/node_modules/
+/Scripts/
+/Include/
+/Lib/
+package.json
+package-lock.json

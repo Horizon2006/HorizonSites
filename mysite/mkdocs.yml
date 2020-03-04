@@ -1,0 +1,93 @@
+#参考文档：https://mkdocs.zimoapps.com/user-guide/writing-your-docs/
+# Project information
+site_name: My Note
+site_description: 'A Material Design theme for MkDocs'
+site_author: 'Martin Donath'
+site_url: 'https://squidfunk.github.io/mkdocs-material/'
+
+#外部链接
+repo_name: 'Link >> Horizonli-Blog <<'
+repo_url: 'https://www.cnblogs.com/horizonli/'
+
+
+
+
+#导航
+nav:
+    - "Index": "index.md"
+    - Openstack:
+        - neutron: 
+            - "neutron-cli": openstack.md
+    - Kubernetes: 
+        - "pods": kubernetes.md
+    - python:
+        - "neutron": about.md
+    - Docker: 
+        - "pods": docker.md
+
+        
+        
+        
+
+
+
+
+
+# theme Configuration https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+theme:
+#  name: 'material'
+  name: 'windmill-dark'
+#  name: 'windmill'
+#  language: 'en'
+  language: 'zh'
+  palette:
+    primary: 'light blue'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+#网站图标和logo图标
+  favicon: '/assets/images/favicon.ico'
+  logo: '/img/logo.svg'
+  
+    
+#palette 参数：
+#red，pink，purple，deep purple，indigo，blue，light blue，cyan，teal，green，light green，lime，yellow，amber，orange，deep orange，brown，grey，blue grey和white
+#红色，粉红色，紫色，深紫色，靛蓝，蓝色，浅蓝色，青色，深绿色，绿色，浅绿色，石灰，黄色，琥珀色，橙色，深橙色，棕色，灰色，蓝灰色和白色
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+
+
+
+
+
+
+
+
+
+#社交联系
+#Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/squidfunk'
+    - type: 'wechat'
+      link: 'https://weixin.qq.com/'
+
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2017 Horizonli'
+      
+#网站分析
+
