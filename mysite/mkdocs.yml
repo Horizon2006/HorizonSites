@@ -13,7 +13,7 @@ repo_url: 'https://www.cnblogs.com/horizonli/'
 
 
 #导航
-nav:
+pages:
     - "Index": "index.md"
     - Openstack:
         - neutron: 
@@ -24,13 +24,12 @@ nav:
         - "neutron": about.md
     - Docker: 
         - "pods": docker.md
+    - Git: 
+        - "HEAD": git.md
 
         
         
         
-
-
-
 
 
 # theme Configuration https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
@@ -88,6 +87,8 @@ extra:
 
 # Copyright
 copyright: 'Copyright &copy; 2016 - 2017 Horizonli'
+
+
       
-#网站分析
+
 
