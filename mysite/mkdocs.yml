@@ -13,7 +13,7 @@ repo_url: 'https://www.cnblogs.com/horizonli/'
 
 
 #导航
-pages:
+nav:
     - "Index": "index.md"
     - Openstack:
         - neutron: 
@@ -26,10 +26,9 @@ pages:
         - "pods": docker.md
     - Git: 
         - "HEAD": git.md
-
-        
-        
-        
+    - "生活": 
+        - "思维导图": git.md         
+        - "经济类": "economic.md"
 
 
 # theme Configuration https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
@@ -37,10 +36,10 @@ theme:
 #  name: 'material'
   name: 'windmill-dark'
 #  name: 'windmill'
-#  language: 'en'
-  language: 'zh'
+  language: 'en'
+#  language: 'zh'
   palette:
-    primary: 'light blue'
+    primary: 'green'
     accent: 'red'
   font:
     text: 'Roboto'
